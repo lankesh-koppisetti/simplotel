@@ -1,0 +1,97 @@
+body{
+    background-attachment: fixed; 
+    background-image: linear-gradient(to right,rgb(255, 104, 194),rgb(255, 219, 92));
+    height: 100%;
+    position: absolute;
+    bottom: 0px; top: 0px; left: 0px; right: 0px;
+    margin : 0px 0px 0px 0px; 
+  }
+  .section1{
+    height:80%;
+  }
+  .header{
+    height: 10%;
+    display:flex;
+    justify-content: center;
+    align-content:center;
+    align-items:center;
+    width:100%;
+    background-color: white;
+    margin:0px;
+
+  }
+  .header-text{
+    padding: 10px;
+    min-width: 10%;
+  }
+  .section2{
+    background-image: url('images/home (1).jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    height:80%;
+    padding:0px;
+    margin:0px;
+  }
+  h1{
+    color: white;
+  }
+  .discription{
+    width:60%;
+    min-height: 35%;
+    color: white;
+    background-color: rgb(209, 117, 107,75%);
+    opacity: 0.0 - 1.0;
+    padding:10px 30px 10px 20px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    z-index: 1;
+   
+  }
+  .discription p{
+    font-size: 14px; 
+    margin-right: 10px;
+  }
+  h2{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .image{
+    border-radius: 0px 30px 0px 30px;
+  }
+  
+  .page2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-bottom: 40px;
+  }
+  .button{
+    background-color:rgb(255,202,184) ;
+    color:black ;
+    padding:15px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bold;
+  }
+  .food-name{
+    font-size: 20px;
+    color:rgb(54, 54, 54);
+    text-align: center;
+    font-weight: bold;
+  }
+  .container-item {
+    width: 30%;
+    min-height: 40%;
+    border-radius: 0px 40px 0px 40px;
+    padding: 20px;
+    
+    background-color: #f1e4e4;
+    margin: 30px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
